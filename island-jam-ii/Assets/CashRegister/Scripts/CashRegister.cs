@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CashRegister : MonoBehaviour {
 
-	public GameObject cart;
+	public CartManager cartManager;
 
 	// Use this for initialization
 	void Start () {
@@ -18,7 +18,7 @@ public class CashRegister : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D col) {
 		if (col.gameObject.name == "Player") {
 			Debug.Log ("Collision!!!!");
-			cart.GetComponent<StuffGenerator> ().Clear ();
+			cartManager.Clear ();
 		}
 	}
 }

@@ -210,6 +210,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 293619969}
+  - 114: {fileID: 293619970}
   m_Layer: 0
   m_Name: Cart
   m_TagString: Untagged
@@ -231,6 +232,24 @@ Transform:
   - {fileID: 102923269}
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &293619970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 293619968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ef2af15a9011954aa6a24d7b5da4e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stuffObjects: []
+  shakeForceMinX: 3
+  shakeForceMaxX: 7
+  shakeForceMinY: 3
+  shakeForceMaxY: 7
+  stuffGenerator: {fileID: 2030544090}
+  scoreManager: {fileID: 1303971715}
 --- !u!1 &350928901
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 425e801084c67354e98f7383825efe83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cart: {fileID: 2030544088}
+  cartManager: {fileID: 293619970}
 --- !u!1 &534580331
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,12 +923,6 @@ MonoBehaviour:
   stuffPrefab: {fileID: 197154, guid: fbc6fac07eddb4d4498249222b534731, type: 2}
   leftSpawnPoint: {fileID: 1603605287}
   rightSpawnPoint: {fileID: 2135801201}
-  stuffObjects: []
-  shakeForceMinX: -10
-  shakeForceMaxX: 10
-  shakeForceMinY: 7
-  shakeForceMaxY: 10
-  scoreManager: {fileID: 1303971715}
 --- !u!1 &2058716574
 GameObject:
   m_ObjectHideFlags: 0
