@@ -10,7 +10,7 @@ public class BoxFalling : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (transform.position.y < -10.0) {
+		if (transform.position.y < -1000.0f) {
 			Destroy (gameObject);
 		}
 	}
