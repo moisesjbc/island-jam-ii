@@ -4,4 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Menus/Scenes/MainMenu.unity
+  - enabled: 1
+    path: Assets/Menus/Scenes/HowToPlayMenu.unity
+  - enabled: 1
+    path: Assets/Menus/Scenes/CreditsMenu.unity
+  - enabled: 1
+    path: Assets/Menus/Scenes/ControlsMenu.unity
+  - enabled: 1
+    path: Assets/Menus/Scenes/HowToPlay2Menu.unity
+  - enabled: 1
+    path: Assets/CartManager/Gui boxes.unity
