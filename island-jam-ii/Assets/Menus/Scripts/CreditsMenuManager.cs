@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class CreditsMenuManager : MonoBehaviour {
-	public void GoToCMainMenu(){
+	public void GoToMainMenu(){
 		Application.LoadLevel ("MainMenu");
 	}
 }
