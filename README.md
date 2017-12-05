@@ -1,5 +1,7 @@
 # BLACK FRIDAY CART RACE
 
+![Black Friday Cart Race screenshot](black-friday-cart-race.png)
+
 **Black Friday Cart Race** is an ability game programmed for the Ludum Dare #40. 
 
 ## Intro
