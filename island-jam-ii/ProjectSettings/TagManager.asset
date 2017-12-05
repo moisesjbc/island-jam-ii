@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - estanteria
+  - Enemigo
+  - objeto
+  - Charco
+  - SpawnEnemigo
+  - item_carro
   layers:
   - Default
   - TransparentFX
@@ -14,7 +19,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - carro
   - 
   - 
   - 
